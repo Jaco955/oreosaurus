@@ -1,1 +1,2 @@
 # oreosaurus
+So, this is basically a website i made for my cat, the wild mascot if you will, Oreo Saurus, a very funny animal at the end of the day, but she is not only pretty, she is a criminal mastermind that creates chaos at will and to everyone she meets, well, not exactly, but she has participated in a lot, i mean, a lot of silly car crimes, so check out the webpage if you want to know some of them, and if you want more stories added, just reply to one of my devlogs in this proyect and ill add some!
