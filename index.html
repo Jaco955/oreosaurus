@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oreo "Gata Sauria" Saurus</title>
+    <style>
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Comic Sans MS', cursive;
+        cursor: url('https://cur.cursors-4n.net/animals/ani-2/ani191.cur'), auto;
+     }
+     body {
+       background: linear-gradient(to right, #fff7f0, #ffe3ec);
+       color: #333;
+       padding: 20px; 
+     }
+     header {
+        text-align: center;
+        margin-bottom: 30px;
+     }
+     header h1 {
+        font-size: 3rem;
+        color: #ff69b4;
+     }
+     nav {
+        text-align: center;
+        margin-bottom: 20px;
+     }
+     nav button {
+        margin: 0 10px;
+        padding: 10px 20px;
+        border: none;
+        background-color: #ff69b4;
+        color: white;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+     }
+     nav button:hover {
+        background-color: #ff1493;
+        transform: scale(1.1);
+     }
+     section {
+        margin-bottom: 40px;
+     }
+     h2 {
+        margin-bottom: 10px;
+        color: #d63384;
+     }
+     ul, p {
+        margin-left: 20px;
+     }
+     footer {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.9rem;
+        color: #777;
+     }
+     #easter-egg {
+        margin-top: 30px;
+        text-align: center;
+        font-size:1.2rem;
+     }
+     #easter-egg a {
+        color: #0077cc;
+        text-decoration: none;
+     }
+     #easter-egg a:hover {
+        text-decoration:underline;
+     }
+     .family-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .family-gallery img {
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+
+  .family-gallery img:hover {
+    transform: scale(1.05);
+  }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meet Oreo "Gata Sauria" Saurus 🐾</h1>
+    </header>
+
+<nav>
+    <button onclick="scrollToSection('gallery')">Gallery</button>
+    <button onclick="scrollToSection('likes')">Things She likes</button>
+    <button onclick="scrollToSection('funfacts')">Fun Facts</button>
+    <button onclick="scrollToSection('family')">Kiwi, Greta & Dakota</button> 
+</nav>
+
+<section id="gallery">
+    <h2>Gallery 📸</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    <img src="saurus1.jpeg" alt="Sauria eating my notebook" width="250" style="border-radius: 15px;">
+    <img src="saurus2.jpeg" alt="Sauria lounging" width="250" style="border-radius: 15px;">
+    <img src="saurus3.jpeg" alt="Sauria on stairs" width="250" style="border-radius: 15px;">
+  </div>
+</section>
+
+<section id="likes">
+    <h2>Things Sauria Likes 😺</h2>
+    <ul>
+      <li>Stealing food (especially chicken and meat)</li>
+      <li>Sleeping on people´s faces</li>
+      <li>Hiding in clothing drawers</li>
+      <li>Messing with Greta and Dakota</li>  
+    </ul>
+</section>
+
+<section id="funfacts">
+    <h2>Fun Facts!!</h2>
+    <ul>
+      <li>The tip of her tail is fully white</li>
+      <li>She inherited her collar from her older brother, Kiwi 🕊️</li>
+      <li>Kiwi was our other cat, not her actual brother, but almost</li>
+      <li>She is on a diet because she was getting fat from all the theft</li>
+      <li>She fights with her older siblings, Greta and Dakota (they are dogs!)</li>
+      <li>Greta and Dakota are actual siblings!!</li>
+    </ul>
+</section>
+
+<section id="family">
+    <h2>Kiwi, Greta & Dakota</h2>
+    <p>Stories: A. We got the tradicion of putting more than one name to our mascots because of Kiwi, his actual name may be hard for non-latin american people, but he was called "Kiwi Alberto de Jesús Michi", formerly known as "Beto"
+        B. Greta, Dakota and Saurus have a Love-Hate siblinesque relation, but Greta and Dakota are actually afraid of Saurus, even tho they are like 10 times bigger than her.
+        C. They all once collaborated to steal some leftover KFC, when we entered the house everything was absoluttely messed up, and they were all sleeping in the backyard, as chill as they could be.
+         Photos:
+    </p>
+    <div class="family-gallery">
+  <h3>Kiwi 🕊️</h3>
+  <img src="kiwi1.jpeg" alt="Kiwi laying down" width="300" />
+
+  <h3>Greta 🐾</h3>
+  <img src="greta1.jpeg" alt="Greta looking up" width="300" />
+  <img src="greta2.jpeg" alt="Greta posing" width="300" />
+
+  <h3>Dakota 🐾</h3>
+  <img src="dakota1.jpeg" alt="Dakota being adorable" width="300" />
+</div>
+</section>
+
+<div id="easter-egg">
+    <p>Want to meet Sauria´s actual spirit animal?</p>
+    <a href="https://www.youtube.com/shorts/il5_R2fylgo" target="_blank">
+     Click here 👆   
+    </a>
+</div>
+<footer>
+    Made with love by: Jaco S. to Oreo "Gata Sauria" Saurus ❤️
+</footer>
+<script>
+    function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth'});
+    }
+</script>
+</body>
+</html>
